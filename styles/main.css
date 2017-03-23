@@ -10,7 +10,7 @@
     top: 0;
     bottom: 0;
     height: 100vh;
-    z-index: -10;
+
 }
 
 #hero-overlay{
@@ -19,6 +19,38 @@
     bottom: 0;
     height: 100%;
     width: 100%;
-    z-index: -5;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.3);
+}
+
+.opaque :not(.nonOpaque){
+    
+}
+
+#pw-contact{
+    background: rgba(255, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+#pw-resume{
+    z-index: 10;
+}
+
+#pw-signature{
+    height: "90";
+    width: "180";
+}
+
+#pinline{
+    display:block;
+}
+
+
+.limargin{
+    margin: 0 0 10px 0;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 870px;
+    }
 }

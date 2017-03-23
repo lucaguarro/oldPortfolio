@@ -14,8 +14,8 @@
 
     <body id="pw-body">
     <div id="hero">
-        <div id="hero-overlay"></div>
-            <nav class="navbar navbar-inverse">
+        <div id="hero-overlay">
+            <nav class="pw-content navbar navbar-inverse">
                 <div class="container">
                     <div class="navbar-header">
                         <img id="pw-signature" class="navbar-brand" src="images/signature.png" alt="Luca Guarro">
@@ -28,7 +28,10 @@
                     </ul>
                 </div>
             </nav>
-            <embed class="pw-resume" src="images/gbgResume.pdf" width = "800px" height = "2100px" />
+            <div class="pw-content" id="pdfContainer">
+                <embed src="images/gbgResume.pdf" width = "950px" height = "800px" />
+            </div>
+        </div>
     </div>
 
    

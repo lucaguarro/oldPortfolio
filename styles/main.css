@@ -1,7 +1,3 @@
-.spacer{
-    margin-bottom: 20px;
-}
-
 #hero{
     background-image: url('../images/Redondo-Beach-Pier-1.jpg');
     background-size: cover;
@@ -10,7 +6,7 @@
     top: 0;
     bottom: 0;
     height: 100vh;
-
+    z-index: 1;
 }
 
 #hero-overlay{
@@ -20,19 +16,27 @@
     height: 100%;
     width: 100%;
     background-color: rgba(0,0,0,0.3);
+    z-index: 2;
 }
 
-.opaque :not(.nonOpaque){
-    
+#pw-panelscontainer{
+    margin: auto;
+    width: 40%;
+}
+
+.pw-panel{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.pw-content{
+    z-index: 3;
 }
 
 #pw-contact{
-    background: rgba(255, 0, 0, 1);
+    z-index: 3;
     color: rgba(255, 255, 255, 1);
-}
-
-#pw-resume{
-    z-index: 10;
 }
 
 #pw-signature{
@@ -40,8 +44,10 @@
     width: "180";
 }
 
-#pinline{
-    display:block;
+#pdfContainer{
+    margin:auto;
+    width: 50%;
+    padding: 10px;
 }
 
 

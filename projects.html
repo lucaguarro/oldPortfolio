@@ -4,12 +4,14 @@
     <head>
         <title>Gianluca Guarro</title>
         <link rel="stylesheet" href="styles/main.css">
-        <link rel=‘icon’ type=‘image/x-icon’ href=’favicon.ico’/>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
         <!-- Optional theme -->
+        <link rel="stylesheet" type="text/css" href="./assets/font-awesome-4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel='icon' type='image/x-icon' href='./images/favicon.ico'>
+        
     </head>
 
     <body id="pw-body">
@@ -28,16 +30,21 @@
                     </ul>
                 </div>
             </nav>
-            <div id="pw-panelscontainer">
-                <img class='pw-panel' src="./images/peekProject/peekPreview.gif" alt="Peek">
-            
+            <div id='peekCarousel' class='pw-carousel'>
+                <img src="./images/peekProject/icon.png" alt="Peek" class='pw-panel'/> 
+                <img src="./images/peekProject/peekPreview.gif" alt="Peek" class='pw-hide pw-panel'/>
+                <i id='pw-left-btn' class = 'fa fa-arrow-circle-left' aria-hidden="true"></i> 
+                <i id='pw-right-btn' class = 'fa fa-arrow-circle-right' aria-hidden="true"></i>
+                <div id='left-click-area'></div>
+                <div id='right-click-area'></div>
             </div>
+            
         </div>
     </div>
 
-   
-    <script src="../assets/jquery-3.2.0.min"></script>
+    <script src="./assets/jquery-3.2.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
     </body>
 
 </html>

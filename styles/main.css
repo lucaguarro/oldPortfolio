@@ -51,10 +51,10 @@
 #pw-right-btn{
     font-size:60px; position:absolute; top:200px; margin-top:-30px; right:15px; color:white;
 }
-#left-click-area{
+.left-click-area{
     width:50%; height:100%; position:absolute; top:0; left:0;
 }
-#right-click-area{
+.right-click-area{
     width:50%; height:100%; position:absolute; top:0; right:0;
 }
 

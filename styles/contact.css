@@ -1,37 +1,27 @@
-#contact-container{
-    margin: auto;
-    /*border: 2px red solid;*/
-    height: 400px;
-    width: 700px;
-    position: absolute;
-    top: 25%;
-    right: 25%;
+.luca {
+    height: 300px;
+    margin: 0 auto;
 }
 
-#pic{
-    height: 100%;
-    width: 30%;
-    /*border: 2px green solid;*/
+.name {
+    text-align: center;
 }
 
-#contentContainer{
-    height:100%;
-    width:70%;  
-    background-color: rgba(255, 255, 255, 0.5);
-    /*border: 2px yellow solid; */ 
-    position: relative;
-    
+.name-name{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+.name-label {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 45px;
+    border-top: 1px solid #000;
+    background: url(../img/name-label.png) center bottom no-repeat;
+    background-size: 35px 35px;
 }
 
-#contactHeader{
-    height:15%;
-    width:100%;
-    border: 2px pink solid; 
-}
-
-#contactContent{
-    /*border: 2px purple solid;*/     
-    margin: auto auto;
-    vertical-align: center;
-    padding-top: 50px;
+.iconText {
+    display: inline-block;
+    margin: 0 20px;
+    color: #555;
 }

@@ -1,20 +1,26 @@
 #contact-container{
     margin: auto;
-    border: 2px red solid;
-    height: 500px;
+    /*border: 2px red solid;*/
+    height: 400px;
     width: 700px;
+    position: absolute;
+    top: 25%;
+    right: 25%;
 }
 
 #pic{
     height: 100%;
     width: 30%;
-    border: 2px green solid;
+    /*border: 2px green solid;*/
 }
 
 #contentContainer{
     height:100%;
     width:70%;  
-    border: 2px yellow solid;  
+    background-color: rgba(255, 255, 255, 0.5);
+    /*border: 2px yellow solid; */ 
+    position: relative;
+    
 }
 
 #contactHeader{
@@ -24,7 +30,8 @@
 }
 
 #contactContent{
-    height:85%;
-    width:100%;
-    border: 2px purple solid;     
+    /*border: 2px purple solid;*/     
+    margin: auto auto;
+    vertical-align: center;
+    padding-top: 50px;
 }

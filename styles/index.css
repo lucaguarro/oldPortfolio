@@ -1,9 +1,6 @@
 #luca-name {
-    background: linear-gradient(270deg,red,#ff6300,#ffdf00,#8dff00,#06ff00,#00ffc4,#00c9ff,#0059ff,#0100ff,#6700ff,#ff00fa,#ff00a0);
+    color: #3366ff;
     background-size: 2000% 2000%;
-    animation: Rainbow 20s ease infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 #lucapic{

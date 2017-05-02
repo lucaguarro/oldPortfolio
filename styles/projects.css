@@ -5,6 +5,11 @@
    width: 100%; 
 }
 
+
+.row-parent{
+    border: 2px red solid;
+}
+
 #peekImage{
    position: relative; 
    width: 100%; /* for IE 6 */    

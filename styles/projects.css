@@ -12,25 +12,16 @@
 }
 
 
-#hero2child{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    border: 1px red solid;
-}
 
-.child {
-    padding-top: 8%;
-}
+
 
 .carouselContainers{
-    padding-top: 4%;
+    padding-top: 3%;
 }
 
 .arrowParent{
     text-align:center;
-    border: 4px green solid;
-    padding-bottom: auto;
+    padding-top:3%;
 }
 
 .apex-dn {
@@ -42,9 +33,26 @@
     margin: auto;
 }
 
+.apex-up {
+    height: 0px;
+    width: 0px;
+    border-left:30px solid transparent;
+    border-right:30px solid transparent;
+    border-bottom:30px solid #fff;
+    margin: auto;
+}
+
 .makeReactive{
     width: 100%;
     height: 100%;
+}
+
+dt{
+    font-size: 0.9em;
+}
+
+dd{
+    font-size: 0.9em;
 }
 
 

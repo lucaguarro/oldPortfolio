@@ -72,12 +72,26 @@ dd{
 }
 
 @media only screen and (max-width: 767px) {
-    .removeXs{
+    .removeSm{
         display: none;
     }
     .shrinkSm{
         width: 75%;
         height: 75%;
+        margin:auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .removeXs{
+        display: none;
+    }
+    .showXs{
+        display: block;
+    }
+    .shrinkSm{
+        width: 72%;
+        height: 72%;
         margin:auto;
     }
 }

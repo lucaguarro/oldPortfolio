@@ -70,3 +70,14 @@ dd{
     height: 100%;
     margin: auto;
 }
+
+@media only screen and (max-width: 767px) {
+    .removeXs{
+        display: none;
+    }
+    .shrinkSm{
+        width: 50%;
+        height: 50%;
+        margin:auto;
+    }
+}
